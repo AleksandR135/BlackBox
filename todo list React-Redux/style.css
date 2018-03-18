@@ -1,0 +1,83 @@
+body {
+  background-color: #ccc;
+  color: white;  
+  font-size: 20px;
+  padding: 20px;
+}
+
+.main {
+  max-width: 500px;
+  background-color: #efda65;
+  text-align: center;
+  margin: 0 auto;
+  min-height: 80vh;
+  border: 1px solid #5c5c5c;
+  padding-bottom: 20px;
+}
+
+form {
+  font-size: 30px;
+  margin-bottom: 20px;
+  background-color: #5C5C5C;
+  padding: 20px 0;
+}
+
+.text_field {
+  display: block;
+  margin: 10px auto;
+  width: 400px;
+  font-size: 20px;
+  padding: 5px 15px;
+}
+
+.list_item {
+  background-color: #00adae;
+  width: 400px;
+  margin: 10px auto 0;
+  padding: 15px 30px;
+  word-wrap: break-word;
+  position: relative;
+  list-style-type: none;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: scale(1.5) translateY(-50%);
+}
+
+.btn-remove {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.btn-remove:hover {
+  background-color: #f00;
+}
+
+.btn {
+  background-color: #fff;
+  border: none;
+}
+
+.btn-submit {
+  padding: 5px 30px;
+  transition: background-color 1s;
+}
+
+.btn-submit:hover {
+  background-color: yellow;
+  
+}
+
+.btn-submit:active {
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  
+}
+
+
+
+
